@@ -131,22 +131,22 @@ var canvas1 = criaCanvas("canvas","python","Python",geraAleatorio(1000,3000),'#0
 var div2= criaDiv("java"," col s4 offset-s2");
 var canvas2 = criaCanvas("canvas","java","Java",geraAleatorio(1000,3000),'#0288D1','#BDBDBD',75);
 
-montaTitulo("Habilidades Principais em Programação");
+montaTitulo("Habilidades Secundárias");
 
 var div3= criaDiv("javascript"," col s4");
-var canvas3 = criaCanvas("canvas","javascript","JavaScript",geraAleatorio(1000,3000),'#0288D1','#BDBDBD',75);
+var canvas3 = criaCanvas("canvas","javascript","JavaScript",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',75);
 var div4= criaDiv("html"," col s4");
-var canvas4 = criaCanvas("canvas","html","HTML",geraAleatorio(1000,3000),'#0288D1','#BDBDBD',75);
+var canvas4 = criaCanvas("canvas","html","HTML",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',75);
 var div5= criaDiv("css"," col s4");
-var canvas5 = criaCanvas("canvas","css","CSS",geraAleatorio(1000,3000),'#0288D1','#BDBDBD',75);
+var canvas5 = criaCanvas("canvas","css","CSS",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',75);
 
-montaTitulo("Habilidades Principais em Programação");
+montaTitulo("Experiência com Design Gráfico");
 
 var div6= criaDiv("krita"," col s4");
-var canvas6 = criaCanvas("canvas","krita","Krita",geraAleatorio(1000,3000),'#0288D1','#BDBDBD',75);
+var canvas6 = criaCanvas("canvas","krita","Krita",geraAleatorio(1000,3000),'#43A047','#BDBDBD',75);
 var div7= criaDiv("inkscape"," col s4");
-var canvas7 = criaCanvas("canvas","inkscape","Inkscape",geraAleatorio(1000,3000),'#0288D1','#BDBDBD',75);
+var canvas7 = criaCanvas("canvas","inkscape","Inkscape",geraAleatorio(1000,3000),'#43A047','#BDBDBD',75);
 var div8= criaDiv("illustrator"," col s4");
-var canvas8 = criaCanvas("canvas","illustrator","Illustrator",geraAleatorio(1000,3000),'#0288D1','#BDBDBD',75);
+var canvas8 = criaCanvas("canvas","illustrator","Illustrator",geraAleatorio(1000,3000),'#43A047','#BDBDBD',75);
 
-var div8= criaDiv("illustrator"," teal col s12");
+//Como só será necessário 1 chart do tipo radar não criei funções para isso
