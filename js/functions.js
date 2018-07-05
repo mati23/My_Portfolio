@@ -120,12 +120,14 @@ function drawTotals(chart) {
 //para os titulos (principais habilidades, habilidades secundarias e habilidades em design grafico)
 function montaTitulo(textoTitulo){
     var titulo = document.createElement("H4");
+
     titulo.textContent=textoTitulo;
     return document.getElementById("divCharts").appendChild(titulo);
 }
 
+//Cria o titulo de cada conjunto de gráficos
 montaTitulo("Habilidades Principais em Programação");
-
+//Cria as divs e dentro de cada div cria o canvas com o gráfico
 var div1= criaDiv("python"," col s4 offset-s1");
 var canvas1 = criaCanvas("canvas","python","Python",geraAleatorio(1000,3000),'#0288D1','#BDBDBD',75);
 var div2= criaDiv("java"," col s4 offset-s2");
@@ -134,135 +136,64 @@ var canvas2 = criaCanvas("canvas","java","Java",geraAleatorio(1000,3000),'#0288D
 montaTitulo("Habilidades Secundárias");
 
 var div3= criaDiv("javascript"," col s4");
-var canvas3 = criaCanvas("canvas","javascript","JavaScript",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',75);
+var canvas3 = criaCanvas("canvas","javascript","JavaScript",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',70);
 var div4= criaDiv("html"," col s4");
-var canvas4 = criaCanvas("canvas","html","HTML",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',75);
+var canvas4 = criaCanvas("canvas","html","HTML",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',70);
 var div5= criaDiv("css"," col s4");
-var canvas5 = criaCanvas("canvas","css","CSS",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',75);
+var canvas5 = criaCanvas("canvas","css","CSS",geraAleatorio(1000,3000),'#FF6F00','#BDBDBD',70);
 
 montaTitulo("Experiência com Design Gráfico");
 
 var div6= criaDiv("krita"," col s4");
-var canvas6 = criaCanvas("canvas","krita","Krita",geraAleatorio(1000,3000),'#43A047','#BDBDBD',75);
+var canvas6 = criaCanvas("canvas","krita","Krita",geraAleatorio(1000,3000),'#43A047','#BDBDBD',70);
 var div7= criaDiv("inkscape"," col s4");
-var canvas7 = criaCanvas("canvas","inkscape","Inkscape",geraAleatorio(1000,3000),'#43A047','#BDBDBD',75);
+var canvas7 = criaCanvas("canvas","inkscape","Inkscape",geraAleatorio(1000,3000),'#43A047','#BDBDBD',70);
 var div8= criaDiv("illustrator"," col s4");
-var canvas8 = criaCanvas("canvas","illustrator","Illustrator",geraAleatorio(1000,3000),'#43A047','#BDBDBD',75);
-
-var config={
-  "particles": {
-    "number": {
-      "value": 80,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#101000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 10,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 80,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 300,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 2
-    },
-    "move": {
-      "enable": true,
-      "speed": 12,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": false,
-        "mode": "repulse"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 800,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 800,
-        "size": 80,
-        "duration": 2,
-        "opacity": 0.8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 400,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-}
+var canvas8 = criaCanvas("canvas","illustrator","Illustrator",geraAleatorio(1000,3000),'#43A047','#BDBDBD',50);
 
 
-particlesJS.load('particles-js', '../particles.json', function() {
-  console.log('callback - particles.js config loaded');
+//Código para a animação do FOOTER da página
+var colors = anime({
+  targets: '#colors',
+
+  backgroundColor: [
+    {value: '#e3f2fd'},
+    {value: '#bbdefb'},
+    {value: '#90caf9'},
+    {value: '#64b5f6'},
+    {value: '#42a5f5'},
+    {value: '#2196f3'},
+    {value: '#1e88e5'},
+    {value: '#1976d2'},
+    {value: '#1565c0'},
+    {value: '#0d47a1'},
+  ],
+  easing: 'linear',
+  direction: 'alternate',
+  duration: 15000,
+  loop:true
 });
+
+$('#ferramenta_materialize').width(200);
+$('#ferramenta_materialize').height(200);
+var altura_ferramenta_padrao = $('#ferramenta_materialize').height();
+$('#ferramenta_jquery').height(altura_ferramenta_padrao);
+$('#ferramenta_chartjs').height(altura_ferramenta_padrao);
+$('#ferramenta_animejs').height(altura_ferramenta_padrao);
+
+
+var ferramenta1 = anime({
+  targets: ['#ferramenta_materialize',' #ferramenta_jquery','#ferramenta_chartjs','#ferramenta_animejs'],
+
+    scale: [.97, .90],
+
+    direction: 'alternate',
+    easing: 'easeInOutSine',
+    duration: 1000,
+    loop: true
+});
+
+
+
 
 //Como só será necessário 1 chart do tipo radar não criei funções para isso

@@ -1,0 +1,32 @@
+.box{
+  height: 100px;
+  width: 100px;
+}
+ul li {
+    display: block;
+    height: 40px;
+    line-height: 50px;
+    font-size: 15px;
+
+}
+
+ul li img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.ferramentas{
+  font-family: 'Roboto-Light';
+  font-size: 30px;
+  text-align: center;
+}
+
+body{
+  font-family: 'Roboto-Light';
+  
+}
+
+canvas{
+  margin-bottom: 20pt;
+
+}

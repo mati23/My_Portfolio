@@ -10,7 +10,3 @@
   font-family: 'Roboto-Light';
   src: url('../fonts/Roboto-Light.ttf') format('truetype');
 }
-#particles-js{
-  background:firebrick;
-  height: 400px;
-}

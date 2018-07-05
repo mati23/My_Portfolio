@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/var/www/html/my_portifolio/images/logo.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter1535">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1525" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1527" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur1529" />
+      <feOffset
+         dx="3"
+         dy="2"
+         result="offset"
+         id="feOffset1531" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1533" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="754.99108"
+     inkscape:cy="308.03008"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="668"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-97)">
+    <path
+       style="opacity:0.747;fill:#212121;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1535)"
+       d="m -37.853298,74.097015 c -0.0549,0 -0.09922,0.04432 -0.09922,0.09922 V 327.36941 c 0,0.0549 0.04432,0.0992 0.09922,0.0992 H 255.9453 c 0.0549,0 0.0987,-0.0443 0.0987,-0.0992 V 74.196234 c 0,-0.0549 -0.0438,-0.09922 -0.0987,-0.09922 z M 7.1765109,151.77909 H 25.186781 l 23.062158,61.27895 23.006864,-61.27895 h 17.955493 v 79.94809 H 75.373897 v -26.35652 l 1.373045,-35.2516 -23.610964,61.60812 h -9.938927 l -23.555668,-61.55334 1.372526,35.19682 v 26.35652 H 7.1765109 Z m 146.1001291,0 h 12.46435 l 30.255,79.94809 h -14.49627 l -6.53397,-18.61436 H 143.9971 l -6.47919,18.61436 h -14.4415 z m 6.20478,16.96744 -11.58585,33.1649 h 23.17171 z m -51.87176,48.92363 c 2.48921,0 4.41111,0.71383 5.76554,2.14147 1.35442,1.39104 2.03191,3.14836 2.03191,5.27152 0,2.08655 -0.67749,3.82518 -2.03191,5.21622 -1.35443,1.35442 -3.27633,2.03191 -5.76554,2.03191 -2.3794,0 -4.26444,-0.67749 -5.65547,-2.03191 -1.39104,-1.35443 -2.086697,-3.09307 -2.086697,-5.21622 0,-2.12316 0.677487,-3.88048 2.031917,-5.27152 1.35443,-1.42764 3.25764,-2.14147 5.71025,-2.14147 z"
+       id="rect1160"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot815"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion817"><rect
+           id="rect819"
+           width="534.28571"
+           height="434.28571"
+           x="125.71429"
+           y="382.51968" /></flowRegion><flowPara
+         id="flowPara821" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="306.16071"
+       y="213.08929"
+       id="text1551"><tspan
+         sodipodi:role="line"
+         id="tspan1549"
+         x="306.16071"
+         y="213.08929"
+         style="stroke-width:0.26458332">Engenheiro</tspan></text>
+  </g>
+</svg>
