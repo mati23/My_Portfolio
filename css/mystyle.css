@@ -2,7 +2,7 @@
   height: 100px;
   width: 100px;
 }
-ul li {
+.footer-items{
     display: block;
     height: 40px;
     line-height: 50px;
@@ -10,7 +10,7 @@ ul li {
 
 }
 
-ul li img {
+.footer-imgs {
     margin-right: 10px;
     vertical-align: middle;
 }
@@ -22,11 +22,23 @@ ul li img {
 }
 
 body{
-  font-family: 'Roboto-Light';
-  
+  font-family: 'Roboto-Regular';
+
 }
 
 canvas{
   margin-bottom: 20pt;
+
+}
+
+
+
+.parallax img {
+    @media #{$small-and-down} { max-width: 200%; }
+    @media #{$medium-and-up} { width: 100%; }
+}
+
+#nav-mobile{
+  font-family: 'Roboto-Regular';
 
 }

@@ -153,6 +153,9 @@ var canvas8 = criaCanvas("canvas","illustrator","Illustrator",geraAleatorio(1000
 
 
 //Código para a animação do FOOTER da página
+
+
+
 var colors = anime({
   targets: '#colors',
 
@@ -180,12 +183,13 @@ var altura_ferramenta_padrao = $('#ferramenta_materialize').height();
 $('#ferramenta_jquery').height(altura_ferramenta_padrao);
 $('#ferramenta_chartjs').height(altura_ferramenta_padrao);
 $('#ferramenta_animejs').height(altura_ferramenta_padrao);
-
+$('#ferramenta_pacce').height(altura_ferramenta_padrao-50);
+$('#ferramenta_loading').width(altura_ferramenta_padrao+100);
 
 var ferramenta1 = anime({
-  targets: ['#ferramenta_materialize',' #ferramenta_jquery','#ferramenta_chartjs','#ferramenta_animejs'],
+  targets: ['#ferramenta_materialize',' #ferramenta_jquery','#ferramenta_chartjs','#ferramenta_animejs','#ferramenta_pacce','#ferramenta_loading'],
 
-    scale: [.97, .90],
+    scale: [.98],
 
     direction: 'alternate',
     easing: 'easeInOutSine',
