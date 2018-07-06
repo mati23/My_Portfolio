@@ -197,7 +197,17 @@ var ferramenta1 = anime({
     loop: true
 });
 
-
-
+particlesJS.load('particles-js','../js/particles.json',function(){
+  console.log('particles.json loaded');
+});
+particlesJS.load('particles-js2','../js/particles.json',function(){
+  console.log('particles.json loaded');
+});
+particlesJS.load('particles-js3','../js/particles.json',function(){
+  console.log('particles.json loaded');
+});
+particlesJS.load('particles-js4','../js/particles.json',function(){
+  console.log('particles.json loaded');
+});
 
 //Como só será necessário 1 chart do tipo radar não criei funções para isso

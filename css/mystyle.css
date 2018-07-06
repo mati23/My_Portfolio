@@ -37,8 +37,21 @@ canvas{
     @media #{$small-and-down} { max-width: 200%; }
     @media #{$medium-and-up} { width: 100%; }
 }
-
-#nav-mobile{
-  font-family: 'Roboto-Regular';
-
+#particles-js {
+    position : absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+#particles-js2 {
+    position : absolute;
+    width:100%;
+    height:250%;
+    z-index:-1;
+}
+#particles-js3 {
+    position : absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
 }
