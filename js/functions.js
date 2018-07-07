@@ -211,6 +211,7 @@ particlesJS.load('particles-js4','../js/particles.json',function(){
 });
 console.log($('#formNome')[0].value);
 document.getElementById("btnEnvia").addEventListener("click", function(event){
+
 if (($('#formNome')[0].value=="") || ($('#formEmail')[0].value=="") || ($('#formMensagem')[0].value=="")) {
   event.preventDefault();
   M.toast({html: 'Um dos campos não foi preenchido!'});
