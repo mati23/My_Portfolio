@@ -210,4 +210,15 @@ particlesJS.load('particles-js4','../js/particles.json',function(){
   console.log('particles.json loaded');
 });
 
+
+document.getElementById("btnEnvia").addEventListener("click", function(event){
+
+if (($('#formNome')[0].value=="") || ($('#formEmail')[0].value=="") || ($('#formMensagem')[0].value=="")) {
+  event.preventDefault();
+  M.toast({html: 'One or more fields were not filled!'});
+}
+
+});
+
+
 //Como só será necessário 1 chart do tipo radar não criei funções para isso
